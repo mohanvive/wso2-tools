@@ -14,9 +14,9 @@ import org.wso2.rest.ds.RestBasicAuthServiceValueHolder;
 
 import java.util.Map;
 
-public class BasicAuthHandler implements Handler {
+public class UserBasicAuthHandler implements Handler {
 
-    private static Log log = LogFactory.getLog(BasicAuthHandler.class);
+    private static Log log = LogFactory.getLog(UserBasicAuthHandler.class);
 
     public void addProperty(String s, Object o) {
         //To change body of implemented methods use File | Settings | File Templates.
